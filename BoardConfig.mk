@@ -44,7 +44,7 @@ TARGET_SCREEN_DENSITY := 480
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 1
 BOARD_KERNEL_BASE := 0x40078000
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 buildvariant=user veritykeyid=id:7e4333f9bba00adfe0ede979e28ed1920492b40f
+BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive buildvariant=user veritykeyid=id:7e4333f9bba00adfe0ede979e28ed1920492b40f
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 TARGET_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
