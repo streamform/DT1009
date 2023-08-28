@@ -1,13 +1,13 @@
 #
 LOCAL_PATH := device/wutong/spm8666p1_64_car
 # A/B
-AB_OTA_UPDATER := true
+# AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
     system \
     dtbo \
     product \
-    vendor
+    vendor \
     
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
